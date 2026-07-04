@@ -1,0 +1,23 @@
+
+mkdir FOLDER
+cd FOLDER
+touch FILE
+
+
+git add --all		{OR}		git add -A
+git add .
+git add *
+
+git rm -f FILE		{AND}		git rm -cached FILE			{AND}		git rm -r FILE
+
+git reset		{AND}		git reset --hard		{AND}		git reset HEAD~
+
+git commit -m "COMMENT"
+git log			{AND}		git log --oneline
+
+git status
+
+
+
+
+git branch			{AND}		git branch NEW_BRANCH_NAME			{AND}		git checkout BRANCH_NAME
