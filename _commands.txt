@@ -20,6 +20,8 @@ git status
 
 
 
-git branch			{AND}		git branch NEW_BRANCH_NAME			{AND}		git checkout BRANCH_NAME
+git branch			{AND}		git branch NEW_BRANCH_NAME
+					{AND}		git checkout BRANCH_NAME		{OR}		git checkout COMMIT_ID
+
 
 git merge DIFFERENT_BRANCH_NAME_FROM_CURRENT_ONE -m "COMMENT"
